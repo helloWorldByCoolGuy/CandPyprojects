@@ -1,0 +1,63 @@
+=================================================================
+  MODEL COMPARISON REPORT
+=================================================================
+
+-----------------------------------------------------------------
+  OVERALL COMPARISON (MAE)
+-----------------------------------------------------------------
+
+    Model                  Previous    Current     Change  Result
+    -------------------- ---------- ---------- ----------  ------
+    Naive                     23.96      23.96      +0.00  SAME
+    WindowAverage             19.54      19.54      +0.00  SAME
+    HistoricAverage           20.60      20.60      +0.00  SAME
+    SeasonalNaive             17.36      17.36      +0.00  SAME
+    AutoARIMA                 13.83       9.96      -3.87  IMPROVED
+
+-----------------------------------------------------------------
+  PER-PRODUCT COMPARISON (MAE)
+-----------------------------------------------------------------
+
+  BAGUETTE:
+    Naive                 12.93 --> 12.93  (+0.00) =
+    WindowAverage         7.55 --> 7.55  (+0.00) =
+    HistoricAverage       6.70 --> 6.70  (+0.00) =
+    SeasonalNaive         11.86 --> 11.86  (+0.00) =
+    AutoARIMA             8.12 --> 8.18  (+0.06) ^
+
+  CROISSANT:
+    Naive                 16.89 --> 16.89  (+0.00) =
+    WindowAverage         18.15 --> 18.15  (+0.00) =
+    HistoricAverage       23.49 --> 23.49  (+0.00) =
+    SeasonalNaive         12.00 --> 12.00  (+0.00) =
+    AutoARIMA             12.63 --> 10.78  (-1.85) v
+
+  PAIN AU CHOCOLAT:
+    Naive                 16.25 --> 16.25  (+0.00) =
+    WindowAverage         15.35 --> 15.35  (+0.00) =
+    HistoricAverage       15.08 --> 15.08  (+0.00) =
+    SeasonalNaive         11.24 --> 11.24  (+0.00) =
+    AutoARIMA             9.55 --> 10.47  (+0.92) ^
+
+  TRADITIONAL BAGUETTE:
+    Naive                 71.31 --> 71.31  (+0.00) =
+    WindowAverage         54.15 --> 54.15  (+0.00) =
+    HistoricAverage       55.41 --> 55.41  (+0.00) =
+    SeasonalNaive         49.77 --> 49.77  (+0.00) =
+    AutoARIMA             36.70 --> 18.24  (-18.46) v
+
+  PAIN AUX RAISINS:
+    Naive                 2.40 --> 2.40  (+0.00) =
+    WindowAverage         2.50 --> 2.50  (+0.00) =
+    HistoricAverage       2.31 --> 2.31  (+0.00) =
+    SeasonalNaive         1.94 --> 1.94  (+0.00) =
+    AutoARIMA             2.16 --> 2.11  (-0.05) v
+
+-----------------------------------------------------------------
+  SUMMARY
+-----------------------------------------------------------------
+
+  AutoARIMA improved by 3.87 MAE.
+  Adding exogenous features helped!
+
+=================================================================

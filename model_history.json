@@ -1,0 +1,46 @@
+{
+  "overall": {
+    "Naive": 23.96,
+    "WindowAverage": 19.54,
+    "HistoricAverage": 20.6,
+    "SeasonalNaive": 17.36,
+    "AutoARIMA": 9.96
+  },
+  "products": {
+    "BAGUETTE": {
+      "Naive": 12.93,
+      "WindowAverage": 7.55,
+      "HistoricAverage": 6.7,
+      "SeasonalNaive": 11.86,
+      "AutoARIMA": 8.18
+    },
+    "CROISSANT": {
+      "Naive": 16.89,
+      "WindowAverage": 18.15,
+      "HistoricAverage": 23.49,
+      "SeasonalNaive": 12.0,
+      "AutoARIMA": 10.78
+    },
+    "PAIN AU CHOCOLAT": {
+      "Naive": 16.25,
+      "WindowAverage": 15.35,
+      "HistoricAverage": 15.08,
+      "SeasonalNaive": 11.24,
+      "AutoARIMA": 10.47
+    },
+    "TRADITIONAL BAGUETTE": {
+      "Naive": 71.31,
+      "WindowAverage": 54.15,
+      "HistoricAverage": 55.41,
+      "SeasonalNaive": 49.77,
+      "AutoARIMA": 18.24
+    },
+    "PAIN AUX RAISINS": {
+      "Naive": 2.4,
+      "WindowAverage": 2.5,
+      "HistoricAverage": 2.31,
+      "SeasonalNaive": 1.94,
+      "AutoARIMA": 2.11
+    }
+  }
+}
