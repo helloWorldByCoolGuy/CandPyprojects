@@ -18,7 +18,7 @@ import itertools
 
 BANKS = ["CBA", "Westpac", "ANZ", "NAB"]
 STRATEGIES = ["Cut", "Keep High"]
-QUARTERS = 10
+QUARTERS = 20
 
 
 # ============================================================
