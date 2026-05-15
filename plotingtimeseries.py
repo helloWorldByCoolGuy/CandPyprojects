@@ -237,7 +237,7 @@ def save_and_compare(crossval_df, results_file='model_history.json'):
 if __name__ == "__main__":
     warnings.filterwarnings('ignore')
 
-    df = load_data('french_bakery.csv')
+    df = load_data(os.path.join(os.path.dirname(__file__), 'french_bakery.csv'))
     models = build_models()
 
     focus = ['BAGUETTE', 'CROISSANT', 'PAIN AU CHOCOLAT',
